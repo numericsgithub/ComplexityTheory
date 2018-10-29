@@ -1,0 +1,15 @@
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\IndipendentSet.exe.config
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\IndipendentSet.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\IndipendentSet.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\Microsoft.GLEE.Drawing.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\WindowsApplication.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\Microsoft.GLEE.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\WindowsApplication.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\Microsoft.Glee.GraphViewerGDI.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\bin\Release\Microsoft.GLEE.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\obj\Release\IndipendentSet.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\obj\Release\IndipendentSet.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\obj\Release\IndipendentSet.csproj.CopyComplete
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\obj\Release\IndipendentSet.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\IndipendentSet\obj\Release\IndipendentSet.pdb

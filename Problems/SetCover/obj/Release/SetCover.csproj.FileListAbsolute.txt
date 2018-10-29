@@ -1,0 +1,15 @@
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\SetCover.exe.config
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\SetCover.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\SetCover.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\Microsoft.GLEE.Drawing.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\WindowsApplication.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\Microsoft.GLEE.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\WindowsApplication.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\Microsoft.Glee.GraphViewerGDI.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\bin\Release\Microsoft.GLEE.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\obj\Release\SetCover.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\obj\Release\SetCover.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\obj\Release\SetCover.csproj.CopyComplete
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\obj\Release\SetCover.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\SetCover\obj\Release\SetCover.pdb

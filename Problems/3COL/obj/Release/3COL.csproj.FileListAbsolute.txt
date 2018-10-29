@@ -1,0 +1,15 @@
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\3COL.exe.config
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\3COL.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\3COL.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\Microsoft.GLEE.Drawing.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\WindowsApplication.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\Microsoft.GLEE.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\WindowsApplication.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\Microsoft.Glee.GraphViewerGDI.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\bin\Release\Microsoft.GLEE.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\obj\Release\3COL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\obj\Release\3COL.csproj.CopyComplete
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\obj\Release\3COL.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\obj\Release\3COL.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\3COL\obj\Release\3COL.csprojAssemblyReference.cache

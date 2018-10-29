@@ -1,0 +1,101 @@
+start(~,~,~,~) -> zahlStart(~,~,~)(>,>,>,-)
+zahlStart(0,#,#,~) -> zahlStart(#,1,~)(>,-,<,-)
+zahlStart(1,#,#,~) -> zahlStart(#,1,~)(>,-,<,-) 
+
+zahlStart(0,#,~,~) -> zahlStart(#,~,~)(>,-,-,-)
+zahlStart(1,#,~,~) -> zahlStart(#,~,~)(>,-,-,-)
+
+zahlStart(#,#,~,~) -> readZiff(#,~,~)(<,-,-,-) 
+
+// WENN 1 GELESEN
+	// Einlesen der Eingabe, Im falle das eingabe 1 ist
+	readZiff(1,#,~,~) -> schreibUnar(#,~,~)(-,-,-,-)  
+
+	// kopiere Band 2 auf Band 1
+	schreibUnar(1,#,~,~) -> schreibUnar(#,~,~)(-,-,>,-)  
+	schreibUnar(1,#,1,~) -> schreibUnar(1,1,~)(-,>,>,-)
+	schreibUnar(1,#,#,~) -> zaehleFurMult(#,#,~)(-,-,-,-) 
+	 
+	// Kopiere Band 2 auf 3
+	zaehleFurMult(1,#,#,~) -> zaehleFurMult(#,#,~)(-,-,<,>)
+	zaehleFurMult(1,#,1,#) -> zaehleFurMult(#,1,1)(-,-,<,>) 
+	zaehleFurMult(1,#,~,#) -> zuruckFurMult(#,~,#)(-,-,>,-) 
+
+	// Nach kopieren ist alles vorbereitet Band 2 zu verdoppeln 
+	// Band 2 Steht nicht ganz rechts, Band 3 ganz rechts
+	// Band 3 ganz links sein und Band 2 ganz rechts
+	zuruckFurMult(1,#,1,#) -> zuruckFurMult(#,1,#)(-,-,-,<) 
+	zuruckFurMult(1,#,1,1) -> zuruckFurMult(#,1,1)(-,-,-,<) 
+	zuruckFurMult(1,#,1,~) -> zuruckFurMulR(#,1,~)(-,-,-,-) 
+	zuruckFurMulR(1,#,1,~) -> zuruckFurMulR(#,1,~)(-,-,>,-)
+	zuruckFurMulR(1,#,#,~) -> verdopple(#,#,~)(-,-,-,>)
+
+	// verdoppel Band 2
+	verdopple(1,#,#,1) -> verdopple(#,1,1)(-,-,>,>)
+	verdopple(1,#,#,#) -> zuruckFurRead(#,#,#)(-,-,<,<)
+
+	// lösche Band 3
+	zuruckFurRead(1,#,1,1) -> zuruckFurRead(#,1,#)(-,-,<,<) 
+	zuruckFurRead(1,#,1,~) -> zuruckFurRead(#,1,~)(-,-,<,-) 
+	zuruckFurRead(1,#,~,~) -> readZiff(#,~,~)(<,-,-,-)
+
+// WENN 0 GELESEN
+	// Einlesen der Eingabe, Im falle das eingabe 0 ist
+	readZiff(0,#,~,~) -> schreibUnar(#,~,~)(-,-,-,-)  
+
+	// Schiebe Band 2 nach rechts
+	schreibUnar(0,#,~,~) -> schreibUnar(#,~,~)(-,-,>,-)  
+	schreibUnar(0,#,1,~) -> schreibUnar(#,1,~)(-,-,>,-)
+	schreibUnar(0,#,#,~) -> zaehleFurMult(#,#,~)(-,-,-,-) 
+
+	// Kopiere Band 2 auf 3
+	zaehleFurMult(0,#,#,~) -> zaehleFurMult(#,#,~)(-,-,<,>)
+	zaehleFurMult(0,#,1,#) -> zaehleFurMult(#,1,1)(-,-,<,>) 
+	zaehleFurMult(0,#,~,#) -> zuruckFurMult(#,~,#)(-,-,>,-) 
+
+	// Nach kopieren ist alles vorbereitet Band 2 zu verdoppeln 
+	// Band 2 Steht nicht ganz rechts, Band 3 ganz rechts
+	// Band 3 ganz links sein und Band 2 ganz rechts
+	zuruckFurMult(0,#,1,#) -> zuruckFurMult(#,1,#)(-,-,-,<) 
+	zuruckFurMult(0,#,1,1) -> zuruckFurMult(#,1,1)(-,-,-,<) 
+	zuruckFurMult(0,#,1,~) -> zuruckFurMulR(#,1,~)(-,-,-,-) 
+	zuruckFurMulR(0,#,1,~) -> zuruckFurMulR(#,1,~)(-,-,>,-)
+	zuruckFurMulR(0,#,#,~) -> verdopple(#,#,~)(-,-,-,>)
+
+	// verdoppel Band 2
+	verdopple(0,#,#,1) -> verdopple(#,1,1)(-,-,>,>)
+	verdopple(0,#,#,#) -> zuruckFurRead(#,#,#)(-,-,<,<)
+
+	// lösche Band 3
+	zuruckFurRead(0,#,1,1) -> zuruckFurRead(#,1,#)(-,-,<,<) 
+	zuruckFurRead(0,#,1,~) -> zuruckFurRead(#,1,~)(-,-,<,-) 
+	zuruckFurRead(0,#,~,~) -> readZiff(#,~,~)(<,-,-,-)
+
+// WENN ~ GELESEN
+// Band 1 Enthält die Binär Zahl nun in Unärer form
+	// Einlesen der Eingabe, Im falle das eingabe ~ ist 
+	readZiff(~,#,~,~) -> auszählen_1(#,~,~)(-,<,-,>)  
+	
+	auszählen_1(~,1,~,#) -> auszählen_2(1,~,#)(-,<,-,-)
+	auszählen_2(~,1,~,#) -> auszählen_3(2,~,#)(-,<,-,-)
+	auszählen_3(~,1,~,#) -> auszählen_4(3,~,#)(-,<,-,-)
+	auszählen_4(~,1,~,#) -> auszählen_5(4,~,#)(-,<,-,-)
+	auszählen_5(~,1,~,#) -> auszählen_1(5,~,#)(-,<,-,-)
+
+	auszählen_1(~,~,~,#) -> end(~,~,1)(-,-,-,-)
+	auszählen_2(~,~,~,#) -> end(~,~,0)(-,-,-,-)
+	auszählen_3(~,~,~,#) -> end(~,~,0)(-,-,-,-)
+	auszählen_4(~,~,~,#) -> end(~,~,0)(-,-,-,-)
+	auszählen_5(~,~,~,#) -> end(~,~,0)(-,-,-,-)
+	
+	
+	
+	
+
+
+
+
+
+
+
+

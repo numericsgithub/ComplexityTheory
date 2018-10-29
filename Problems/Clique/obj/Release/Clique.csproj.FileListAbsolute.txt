@@ -1,0 +1,14 @@
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Clique.exe.config
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Clique.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Clique.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Microsoft.GLEE.Drawing.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\WindowsApplication.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Microsoft.Glee.GraphViewerGDI.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Microsoft.GLEE.dll
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\WindowsApplication.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Microsoft.Glee.GraphViewerGDI.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\bin\Release\Microsoft.GLEE.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\obj\Release\Clique.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\obj\Release\Clique.csproj.CopyComplete
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\obj\Release\Clique.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Clique\obj\Release\Clique.pdb

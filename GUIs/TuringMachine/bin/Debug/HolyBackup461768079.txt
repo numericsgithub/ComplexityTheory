@@ -1,0 +1,34 @@
+start(~,~,~,~) -> zahlStart(~,~,~)(>,>,>,-)
+zahlStart(0,#,#,~) -> zahlStart(#,1,~)(>,-,<,-)
+zahlStart(1,#,#,~) -> zahlStart(#,1,~)(>,-,<,-) 
+
+zahlStart(0,#,~,~) -> zahlStart(#,~,~)(>,-,-,-)
+zahlStart(1,#,~,~) -> zahlStart(#,~,~)(>,-,-,-)
+
+zahlStart(#,#,~,~) -> readZiff(#,~,~)(<,-,-,-)
+
+// Einlesen der Eingabe, Im falle das eingabe 1 ist
+readZiff(1,#,~,~) -> schreibUnar(#,~,~)(-,>,>,-)
+
+// kopiere Band 2 auf Band 1
+schreibUnar(1,#,1,~) -> schreibUnar(1,1,~)(-,>,>,-) 
+schreibUnar(1,#,#,~) -> zaehleFurMult(#,#,~)(-,-,-,-)
+
+// Kopiere Band 2 auf 3
+zaehleFurMult(1,#,#,~) -> zaehleFurMult(#,#,~)(-,-,<,>)
+zaehleFurMult(1,#,1,#) -> zaehleFurMult(#,1,1)(-,-,<,>)
+zaehleFurMult(1,#,~,#) -> zuruckFurMult(#,~,#)(-,-,-,<)
+
+// Nach kopieren ist alles vorbereitet Band 2 zu verdoppeln
+zuruckFurMult(1,#,#,1) -> zuruckFurMult(#,#,1)(-,-,-,<) 
+zuruckFurMult(1,#,#,~) -> verdopple(#,#,~)(-,-,-,>) 
+
+// verdoppel Band 2
+verdopple(1,#,#,1) -> verdopple(#,1,#)(-,-,>,>)
+verdopple(1,#,#,#) -> zuruckFurRead(#,#,#)(-,-,<,<)
+
+// lösche Band 3
+zuruckFurRead(1,#,1,#) -> zuruckFurRead(#,1,#)(-,-,<,<) 
+zuruckFurRead(1,#,1,~) -> zuruckFurRead(#,1,~)(-,-,<,-) 
+zuruckFurRead(1,#,~,~) -> readZiff(#,~,~)(-,-,>,-)
+

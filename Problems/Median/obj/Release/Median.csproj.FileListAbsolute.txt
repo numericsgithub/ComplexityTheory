@@ -1,0 +1,7 @@
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\bin\Release\Median.exe.config
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\bin\Release\Median.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\bin\Release\Median.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\obj\Release\Median.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\obj\Release\Median.exe
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\obj\Release\Median.pdb
+C:\Users\Admin\Source\Workspaces\Komplexitätstheorie\Alles\Median\obj\Release\Median.csprojAssemblyReference.cache

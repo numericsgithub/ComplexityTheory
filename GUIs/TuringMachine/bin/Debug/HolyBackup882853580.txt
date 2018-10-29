@@ -1,0 +1,28 @@
+start(~,~,~,~) -> zahlStart(~,~,~)(>,>,>,-)
+zahlStart(0,#,#,~) -> zahlStart(#,1,~)(>,-,-,-)
+zahlStart(1,#,#,~) -> zahlStart(#,1,~)(>,-,-,-)
+
+zahlStart(0,#,1,~) -> zahlStart(#,1,~)(>,-,-,-)
+zahlStart(1,#,1,~) -> zahlStart(#,1,~)(>,-,-,-)
+
+zahlStart(#,#,1,~) -> readZiff(#,1,~)(<,-,-,-)
+
+// wenn
+readZiff(1,#,1,~) -> schreibUnar(1,1,~)(-,>,<,-)
+schreibUnar(1,#,1,~) -> schreibUnar(1,1,~)(-,>,<,-)
+schreibUnar(1,#,~,~) -> zaehleFurMult(#,~,~)(-,-,-,-)
+
+zaehleFurMult(1,#,~,~) -> zaehleFurMult(#,~,~)(-,-,>,>)
+zaehleFurMult(1,#,1,#) -> zaehleFurMult(#,1,1)(-,-,>,>)
+zaehleFurMult(1,#,#,#) -> zuruckFurMult(#,#,#)(-,-,-,<)
+
+zuruckFurMult(1,#,#,1) -> zuruckFurMult(#,#,1)(-,-,-,<) 
+zuruckFurMult(1,#,#,~) -> draufdamit(#,#,~)(-,-,-,>) 
+
+draufdamit(1,#,#,1) -> draufdamit(#,1,#)(-,-,>,>)
+draufdamit(1,#,#,#) -> zuruckFurRead(#,#,#)(-,-,<,<)
+
+zuruckFurRead(1,#,1,#) -> zuruckFurRead(#,1,#)(-,-,<,<) 
+zuruckFurRead(1,#,1,~) -> zuruckFurRead(#,1,~)(-,-,<,-) 
+zuruckFurRead(1,#,~,~) -> readZiff(#,~,~)(-,-,>,-)
+

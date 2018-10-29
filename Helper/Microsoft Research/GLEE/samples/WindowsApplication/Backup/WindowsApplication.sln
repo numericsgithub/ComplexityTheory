@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication", "WindowsApplication\WindowsApplication.csproj", "{B1239B8B-1A27-4DB8-8A66-EAC760A9E9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingFromGleeGraph", "..\DrawingFromGleeGraph\DrawingFromGleeGraph.csproj", "{76C7B926-D1C1-405F-AB40-41914FEC3E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1239B8B-1A27-4DB8-8A66-EAC760A9E9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1239B8B-1A27-4DB8-8A66-EAC760A9E9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1239B8B-1A27-4DB8-8A66-EAC760A9E9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1239B8B-1A27-4DB8-8A66-EAC760A9E9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C7B926-D1C1-405F-AB40-41914FEC3E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C7B926-D1C1-405F-AB40-41914FEC3E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C7B926-D1C1-405F-AB40-41914FEC3E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C7B926-D1C1-405F-AB40-41914FEC3E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

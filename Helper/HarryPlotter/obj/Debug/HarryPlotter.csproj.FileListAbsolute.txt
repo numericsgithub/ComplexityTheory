@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\WindowsApplication.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\HarryPlotter.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\HarryPlotter.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\HarryPlotter.dll
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\HarryPlotter.pdb
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.dll
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.GraphViewerGDI.dll
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.pdb
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.Drawing.pdb
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\bin\Debug\Microsoft.GLEE.GraphViewerGDI.pdb
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\HarryPlotter.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\HarryPlotter.dll
+C:\Users\Admin\Documents\GitHub\TeamTobi\ComplexityTheory\Helper\HarryPlotter\obj\Debug\HarryPlotter.pdb
